@@ -21,3 +21,11 @@ Functionality:
 Saves sensor data as CSV to a TXT file on a micro SD card
 After code is uploaded to Arduino Uno, sensor system will begin saving once board is powered. 
 To improve functionality, adapt this code for use on a board with more memory. Arduino Uno runs out of memory, so not all sensors are used in this suite. Another board with more memory would allow for running all the sensors concurrently. 
+
+Files:
+I2C scanner reveals I2C devices connected to Arduino. 
+WIPE_SD wipes SD card.
+STL file is for a 3D printed box that can hold the sensors as well as some extra room. 
+sensorcode is main code to be uploaded to Arduino. 
+Example data file included. 
+
